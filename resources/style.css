@@ -1,8 +1,9 @@
 body {
-  background-color: rgb(238, 238, 238);
+  background-color: #f1f1f1;
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
+  color: #2b2a28;
 }
 
 .poppins-light {
@@ -21,44 +22,59 @@ body {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-style: normal;
+  color: #4a5e2a;
 }
 
 .center-dev {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Adjust if needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .poppins-700-menu {
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 50px;
-    color: rgb(18, 0, 22);
-  }
-
-  .poppins-700-menu :hover{
-    color: rgb(220, 228, 208) !important;
-  }
+  font-family: "Poppins", serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 50px !important;
+  color: rgb(39, 39, 39) !important;
+  text-decoration: none;
+  border: dotted #fff6e4;
+}
+.poppins-700-menu:hover {
+  color: #64724d !important;
+  font-weight: 700 !important;
+  background-color: #fff6e4;
+  border: dashed !important;
   
-  
-  .offcanvas {
-    width: 35% !important;
-    background-color: rgb(255, 255, 255);
-  }
-  .btnMenu{
-    width: 100%;
-    text-align: left;
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 50px;
-    color: rgb(18, 0, 22);
+}
 
+.btnSize {
+  height: 10% !important;
+  width: 10%;
+}
+.titleMenu {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  color: rgb(41, 59, 26);
+}
 
-  }
-  .btnMenu :hover{
-    border-style: dotted !important;
-  }
+.offcanvas {
+  width: 50% !important;
+  background-color: #fff6e4 !important;
+}
+.btnMenu {
+  width: 100%;
+  text-align: left;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(18, 0, 22);
+}
+.btnMenu :hover {
+  border-style: dotted !important;
+}

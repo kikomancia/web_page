@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="/resources/style.css"> -->
+    <link rel="stylesheet" href="/resources/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -12,55 +23,57 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="/resources/style.css">
 </head>
 
 <body class="poppins-light">
 
-    <div class="container text-center">
+    <div class="container text-center center-dev">
         <div class="row align-items-center">
-            <div class="col">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <h1 class="poppins-700"> <span class="poppins-medium"> Jericho </span></h1>
+                <h2 class="poppins-700">Mancia</h2>
 
-                <div class="center-dev">
-                    <h1 class="poppins-700"> <span class=" poppins-medium"> JERICHO </span> <br>MANCIA</h1>
-                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-                        Get started</button>
-
-                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    Get started</button>
             </div>
         </div>
     </div>
 
-    <!--  -->
 
-    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+    <!-- OPTIONS -->
+    <div class="container offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
         aria-labelledby="offcanvasWithBothOptionsLabel">
 
         <div class="offcanvas-header">
-           
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h1 class="titleMenu">CONTENT LIST</h1>
+            <button type="button" class="btn-close btnSize" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-
-        <div class="offcanvas-body">
+        <hr>
+        <div class="offc anvas-body container ">
             <nav class="nav flex-column">
-                <a class="nav-link active poppins-700-menu " aria-current="page" href="#">About me</a>
-                <a class="nav-link poppins-700-menu" href="#">Expertise</a>
-                <a class="nav-link poppins-700-menu" href="#">Projects & Studies</a>
-                <a class="nav-link poppins-700-menu" href="#">Leadership & Team Growth</a>
-                <a class="nav-link poppins-700-menu" href="#">Contact me</a>
-
-                <a href=""> <button class="btnMenu"> About me</button> </a>
-                
+                <a class="poppins-700-menu" href="">About me</a>
+                <a class="poppins-700-menu" href="">Expertise & skills</a>
+                <a class="poppins-700-menu" href="">Project & studies</a>
+                <a class="poppins-700-menu" href="">Leadership & team leader</a>
+                <a class="poppins-700-menu" href="">Contact me</a>
             </nav>
+
         </div>
+        <hr>
+
+        <div class="container">
+            <button type="button" class="btn btn-warning"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708z" />
+                    <path
+                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                </svg> Download my Resume</button>
+        </div>
+
     </div>
 
 </body>
