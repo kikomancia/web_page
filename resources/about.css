@@ -1,3 +1,36 @@
-body{
-    background-color: #e7e7e7 !important;
+.abt_body{
+    background-color: #faf0db !important;
 }
+
+.poppins-700 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 120px;
+    color: #161616;
+  }
+  
+  .highlightedTxt{
+    color: #2B2A28 !important;
+  }
+  .txtPar{
+    font-size: 18px !important;
+  }
+  .menuButton{
+    font-size: 82px;
+    width: 105px;
+    height:55px;
+  }
+  .boutContents{
+    border: dashed ;
+  }
+
+  .center-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px; /* Added padding for mobile spacing */
+    
+  }

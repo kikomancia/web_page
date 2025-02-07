@@ -6,7 +6,7 @@
     <title>Main page</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/resources/style.css">
+    <link rel="stylesheet" href="/resources/about.css">
     <!-- <link rel="stylesheet" href="../web_page/resources/style.css"> -->
 
     <!-- google fonts -->
@@ -27,52 +27,65 @@
 
 <body class="poppins-light">
 
-    <div class="container text-center center-dev">
-        <div class="row align-items-center">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <h1 class="poppins-700"> <span class="poppins-medium"> Jericho </span></h1>
-                <h2 class="poppins-700">Mancia</h2>
-
-            </div>
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <button type="button" class="btn btn-outline-dark" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"> <i
-                        class="bi bi-emoji-sunglasses"></i> Get started</button>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- OPTIONS -->
+    <!-- CONTENT LIST OR MENU -->
     <div class="container offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
         aria-labelledby="offcanvasWithBothOptionsLabel">
-
         <div class="container offcanvas-header">
             <h1 class="titleMenu">CONTENT LIST</h1>
             <button type="button" class="btn-close btnSize" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-
         <hr>
-
         <div class="off canvas-body container ">
             <nav class="nav flex-column">
-                <a class="poppins-700-menu activeLink" href="#">Home </a>
-                <a class="poppins-700-menu" href="about.html"> About me</a>
+                <a class="poppins-700-menu " href="#">Home </a>
+                <a class="poppins-700-menu activeLink" href="about.html"> About me</a>
                 <a class="poppins-700-menu" href=""> Project & studies</a>
                 <a class="poppins-700-menu" href=""> Expertise & skills</a>
                 <a class="poppins-700-menu" href=""> Leadership & team leader</a>
                 <a class="poppins-700-menu" href=""> Contact me</a>
             </nav>
-
         </div>
-
         <hr>
-
         <div class="container">
             <button type="button" class="btn btn-warning"> <i class="bi bi-download"></i> Download my Resume</button>
         </div>
-
     </div>
+    <!-- CONTENT LIST OR MENU -->
+
+
+    <div class="container center-dev">
+        <div class="row align-items-center">
+
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12  ">
+                <img src="/resources/imgs/classic.jpg" alt="" srcset="" class="img-fluid">
+
+            </div>
+
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 ">
+                <!-- 2ND COL -->
+                <h1 class="poppins-700">ABOUT <span class="highlightedTxt"> ME </span></h1>
+                <p class="txtPar">
+                    I am a Technical Project Manager with a Master’s degree in IT and a passion for building impactful
+                    digital solutions. With expertise in software engineering, UI/UX design, system analysis, and
+                    business analysis, I bring a well-rounded approach to technology and innovation.
+
+                    Currently, I lead an IT team at Boss Cargo, driving the development of logistics-focused systems
+                    that streamline operations, enhance cargo visibility, and optimize workflows. My experience extends
+                    beyond coding—I focus on strategic planning, branding, and team empowerment, ensuring that
+                    technology serves both business goals and user needs.
+
+                    As a new type of manager, I emphasize collaboration, agility, and continuous improvement, fostering
+                    a strong team culture while delivering high-quality solutions.
+                </p>
+                <hr>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"> <i
+                        class="bi bi-emoji-sunglasses"></i> Content list</button>
+            </div>
+
+        </div>
+    </div>
+
 
 </body>
 
