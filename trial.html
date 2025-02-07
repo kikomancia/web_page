@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Style Absorption Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1e1e1e;
+            margin: 0;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .dock {
+            display: flex;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 10;
+        }
+
+        .dock a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+            border-radius: 10px;
+            background: white;
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            z-index: 10;
+        }
+
+        .dock a img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .dock a:active {
+            transform: scale(0.7);
+        }
+
+        .absorb {
+            transform: scale(0.1);
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dock">
+        <a href="index.html" onclick="absorbScreen(event)"> Go to home!</a>
+    </div>
+    <script>
+        function absorbScreen(event) {
+            event.preventDefault();
+            document.body.classList.add('absorb');
+            setTimeout(() => {
+                document.body.style.display = 'none';
+            }, 500);
+        }
+    </script>
+</body>
+
+</html>
