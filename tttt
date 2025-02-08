@@ -3,3 +3,54 @@
 <button type="button" class="btn btn-outline-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
     aria-controls="offcanvasWithBothOptions">
     Get started</button>
+
+
+        <!-- Floating Bottom Menu -->
+        <div class="floating-menu">
+            <a href="index.html" class="menu-item">
+                <i class="bi bi-house"></i>
+                <span>Content list</span>
+            </a>
+    
+        </div>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                console.log("Floating menu loaded!");
+            });
+    
+        </script>
+    
+    
+    
+/* floating menu */
+.floating-menu {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(255, 250, 250);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 30px;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.menu-item:hover {
+  color: #007bff;
+}
+
+.menu-item i {
+  font-size: 20px;
+}
