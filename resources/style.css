@@ -1,6 +1,6 @@
 body {
   background-color: #f1f1f1;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", serif !important;
   font-weight: 300;
   font-style: normal;
   color: #2b2a28;
@@ -165,4 +165,17 @@ body {
 .fntsze120{
   font-size: 120px;
   font-weight: 700;
+}
+
+/* ////////////////////////// */
+/* ///Skills and Expertise ///*/
+/* ////////////////////////// */
+.skillsBG{
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background-color: #f1ebeb;
+  background-image: radial-gradient(rgba(190, 109, 109, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px ;
 }
