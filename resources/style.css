@@ -147,18 +147,21 @@ body {
 }
 .txtPar {
   font-size: 19px !important;
-  color: #f1f1f1;
+  color: #252525;
+  
 }
+
 .fntsze110 {
   font-size: 110px;
   font-weight: 700;
   color: #2b2a28;
+
 }
 
 .fntsze115 {
-  font-size: 99px;
+  font-size: 120px;
   font-weight: 700;
-  color: #f0be5b;
+  color: #b68b36;
 }
 
 .fntsze120 {
@@ -169,6 +172,7 @@ body {
 /* ////////////////////////// */
 /* ///Skills and Expertise ///*/
 /* ////////////////////////// */
+
 .skillsBG {
   width: 100%;
   height: 100%;
@@ -181,7 +185,6 @@ body {
   background-position: -5px -5px;
   background-attachment: fixed; /* Keeps background fixed while scrolling */
 }
-
 
 .sidebar {
   position: fixed;
@@ -269,7 +272,9 @@ body {
     color: #ffffff;
     
   }
-
+.fntsze115{
+  font-size: 80px;
+}
   .rotated {
     display: none;
     /* Hide rotated text on mobile */
