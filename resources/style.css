@@ -247,6 +247,7 @@ body {
   }
   .mTxtSize {
     font-size: 45px !important;
+    /* padding-top: 30px; */
   }
   .sidebar ul {
     display: flex;
@@ -270,4 +271,8 @@ body {
     display: none;
     /* Hide rotated text on mobile */
   }
+}
+
+.ulStyl{
+  font-weight: 600 !important;
 }
