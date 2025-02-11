@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,151 +7,204 @@
     <title>Skills and Expertise</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/resources/btnDl.css">
     <link rel="stylesheet" href="/resources/style.css">
-    <!-- <link rel="stylesheet" href="../web_page/resources/style.css"> -->
+    <link rel="stylesheet" href="/resources/btnDl.css">
 
-    <!-- google fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
 </head>
 
-<body class="sklsBG">
+<body class="skillsBG">
+    <!-- Fixed Sidebar -->
 
-    <!-- CONTENT LIST OR MENU -->
-    <div class="container offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
-        aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="container offcanvas-header">
-            <h1 class="titleMenu">CONTENT LIST</h1>
-            <button type="button" class="btn-close btnSize" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="off canvas-body container ">
-            <nav class="nav flex-column">
-                <a class="poppins-700-menu activeLink" href="">Home </a>
-                <a class="poppins-700-menu" href="about_me.html"> About me</a>
-                <a class="poppins-700-menu" href="projects.html"> Project & studies</a>
-                <a class="poppins-700-menu" href="skills.html"> Expertise & skills</a>
-                <a class="poppins-700-menu" href="leadership.html"> Leadership & team leader</a>
-                <a class="poppins-700-menu" href="contact.html"> Contact me</a>
-            </nav>
-        </div>
-        <hr>
-        <div class="container">
-            <button type="button" class="btn btn-warning"> <i class="bi bi-download"></i> Download my Resume</button>
-        </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <hr>
+            <li><a href="about_me.html">ABOUT ME</a></li>
+            <hr>
+            <li><a href="skills.html">EXPERTISE</a></li>
+            <hr>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <hr>
+            <li><a href="contact.html">CONTACT ME</a></li>
+        </ul>
     </div>
-    <!-- CONTENT LIST OR MENU -->
 
-    <!-- ABOUT BODY START HERE -->
-
-    <div class="container">
-        <div class="text-center">
-
-
-            <h3 class="fntsze120">SKILLS & EXPERTISE</h3>
-            <div class="row align-items-start">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <!-- <p>Skilled in team management, programming, UI/UX design, database structure and engineering, system
-                    analysis, and profit and loss analysis, with a strong ability to bridge technology and business.
-                    Experienced in leading system development and digital transformation, ensuring solutions are
-                    user-centric, efficient, and strategically aligned. Passionate about innovation, collaboration, and
-                    empowering teams to drive impactful results.</p> -->
-                </div>
-            </div>
+    <!-- Skills & Expertise Content -->
+    <div class="container mt-3">
+        <div class="text-start">
+            <h3 class="mTxtSize" style="font-size: 75px; font-weight: 700;">SKILLS & EXPERTISE</h3>
         </div>
 
-        <!--  -->
-        <div class="row align-items-start">
-            <div class="col">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="container mt-4">
 
-                    <div class="col">
-                        <div class="card">
-                            <img src="/resources/imgs/team_img.png" height="100" width="100" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Team Leading and Management</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
+            <div class="row" style="font-size: 14px;">
+
+                <!-- Project Management -->
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-5 ">
+                    <h3 style="color: #da7b00; font-weight: 500 !important;"> <i class="bi bi-graph-up-arrow"></i>
+                        Project Management</h3>
+                    <p style="font-size: 14px; text-align: justify !important; ">
+                        With a Master’s in Information Technology and a strong foundation in project management, I
+                        specialize in leading and executing technology-driven initiatives. Skilled in agile
+                        methodologies, system development lifecycle (SDLC), risk management, and strategic planning,
+                        ensuring projects are delivered on time, within scope, and aligned with business objectives.
+                    </p>
+
+                    <div class="mt-2">
+                        <h6> Project management tools</h6>
+                        <li>
+                            ClickUp / Trello
+                        </li>
+                        <li>
+                            Slack - Communications
+                        </li>
+                        <li>
+                            Figma Board for team brain-storming and collaboration
+                        </li>
+                        <li>
+                            Draw.io & Eraser.io for diagrams and flows
+                        </li>
+                        <li>
+                            AI (ChatGPT, Gemini and Deepseek)
+                        </li>
                     </div>
-
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">UI/UX Design</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Database Structuring and Management</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Programming</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Profit and Loss analyis</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Branding</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                   
 
                 </div>
+
+                <!-- Team management -->
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-5">
+                    <h3 style="color: #da7b00; font-weight: 500 !important;"> <i class="bi bi-balloon-heart"></i> Team
+                        leading & Management</h3>
+                    <p style="text-align: justify !important;">
+                        Experienced in team leadership and management, specializing in creating policies, procedures,
+                        and programs that foster engagement, growth, and productivity. Skilled in branding and
+                        culturalization, shaping a strong team identity that enhances motivation and collaboration.
+                        Committed to empowering teams, optimizing workflows, and cultivating a workplace culture where
+                        individuals feel valued, inspired, and actively engaged in daily tasks, leading to both personal
+                        and organizational success.
+                    </p>
+                    <div class="mt-2">
+                        <li>
+                            Policies and procedures
+                        </li>
+                        <li>
+                            Quarterly programs and bonding experience
+                        </li>
+                        <li>
+                            Professional and Personal growth and Empowerment
+                        </li>
+                        <li>
+                            Providing ergonomic environment
+                        </li>
+                        <li>
+                            Team Celebrations and Recognition
+                        </li>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row" style="font-size: 14px;">
+
+                <!-- System development and engineering -->
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-5 ">
+                    <h3 style="color: #da7b00; font-weight: 500 !important;"> <i class="bi bi-code-slash"></i>
+                        Software development</h3>
+                    <p style="font-size: 14px; text-align: justify !important; ">
+                        Experienced in system development and engineering, specializing in designing, developing, and
+                        optimizing scalable and efficient software solutions. Proficient in system architecture,
+                        database structure, and full-stack development, ensuring seamless integration and performance.
+                        Skilled in analyzing business requirements, streamlining development processes, and implementing
+                        best practices to create robust, user-centric, and high-performing systems that align with
+                        business objectives.
+                    </p>
+
+                    <div class="mt-2">
+                        <h6> Programming Languages and Frameworks </h6>
+                        <li>
+                            PHP / Laravel
+                        </li>
+                        <li>
+                            JavaScript / React / JQuery / Ajax
+                        </li>
+                        <li>
+                            MySQL / SQL Server
+                        </li>
+
+                        <li>
+                            Git & GitHub
+                        </li>
+                        <li>
+                            Rest API
+                        </li>
+                        <li>
+                            WordPress / Elementor / Woocommerce
+                        </li>
+                        <li>
+                            HTML / CSS
+                        </li>
+                        <li>
+                            Bootstrap / Tailwind
+                        </li>
+
+                    </div>
+
+                </div>
+
+                <!-- Team management -->
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-5">
+                    <h3 style="color: #da7b00; font-weight: 500 !important;"> <i class="bi bi-palette"></i> UI/UX
+                        and Prototyping</h3>
+                    <p style="text-align: justify !important;">
+                        Proficient in UI/UX design and prototyping, focusing on creating intuitive, user-centered
+                        experiences that solve real problems. Experienced in user research, wireframing, and interactive
+                        prototyping, ensuring designs are not only visually appealing but also highly functional and
+                        easy to use. Passionate about iterative design and user feedback, I collaborate closely with
+                        teams to refine prototypes, ensuring the final product delivers an exceptional user experience
+                        and aligns with both business and user needs.
+                    </p>
+                    <div class="mt-2">
+                        <h6>Designing tools</h6>
+                        <li>
+                            Figma
+                        </li>
+                        <li>
+                            Photoshop
+                        </li>
+                        <li>
+                            Illustrator
+                        </li>
+                        <li>
+                            Canva
+                        </li>
+                        <li>
+                            SketchUp
+                        </li>
+
+                    </div>
+                </div>
+
             </div>
 
         </div>
+
     </div>
+
+    <!-- Copyright (Rotated) -->
+    <div class="rotated">© 2025</div>
 
 </body>
 
