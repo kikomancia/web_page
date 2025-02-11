@@ -174,12 +174,14 @@ body {
   height: 100%;
   background-color: #fffef9;
   background-image: radial-gradient(
-    rgba(190, 109, 109, 0.171) 2px,
+    rgba(199, 161, 161, 0.171) 2px,
     transparent 0
   );
   background-size: 30px 30px;
   background-position: -5px -5px;
+  background-attachment: fixed; /* Keeps background fixed while scrolling */
 }
+
 
 .sidebar {
   position: fixed;
@@ -242,7 +244,7 @@ body {
     display: flex;
     padding: 10px 0px 0px 20px;
     border-radius: 0px;
-    background-color: #64724d;
+    background-color: #98a08c;
     margin-bottom: -22px;
   }
   .mTxtSize {
@@ -265,14 +267,26 @@ body {
     padding: 5px 8px;
     font-weight: 500;
     color: #ffffff;
+    
   }
 
   .rotated {
     display: none;
     /* Hide rotated text on mobile */
   }
+
+  .crossoutTxt{
+    text-decoration: line-through !important;
+    color: #e2ba62 !important;
+  }
+
 }
 
 .ulStyl{
   font-weight: 600 !important;
+}
+
+.crossoutTxt{
+  text-decoration: line-through !important;
+  color: rgb(145, 95, 3) !important;
 }
