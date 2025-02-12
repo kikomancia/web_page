@@ -376,3 +376,14 @@ body {
   background-color: #000000;
   transform: rotateY(180deg);
 }
+
+
+/* CONTACT ME CSS */
+.lnkClss{
+  text-decoration: none;
+  color: inherit;
+}
+
+.lnkClss:hover{
+  color: rgb(156, 86, 19);
+}
