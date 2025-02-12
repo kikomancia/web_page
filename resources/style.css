@@ -149,22 +149,18 @@ body {
   font-size: 19px !important;
   color: #252525;
   text-align: justify;
-  
 }
 
 .fntsze110 {
   font-size: 110px;
   font-weight: 700;
   color: #2b2a28;
-
 }
 
 .fntsze115 {
   font-size: 120px;
   font-weight: 700;
   color: #000000;
-
-
 }
 
 .fntsze120 {
@@ -242,9 +238,9 @@ body {
 
 /* RESPONSIVE DESIGN FOR MOBILE */
 @media (max-width: 600px) {
-  /* .removeSmall{
+  .removeSmall{
     display: none;
-  } */
+  }
   .sidebar {
     right: 0;
     top: auto;
@@ -276,35 +272,35 @@ body {
     padding: 5px 8px;
     font-weight: 500;
     color: #ffffff;
-    
   }
-.fntsze115{
-  font-size: 60px;
-}
+
+  .fntsze115 {
+    font-size: 60px;
+  }
   .rotated {
     display: none;
     /* Hide rotated text on mobile */
   }
 
-  .crossoutTxt{
+  .crossoutTxt {
     text-decoration: line-through !important;
     color: #e2ba62 !important;
   }
 
-  .divDashed{
+  .divDashed {
     /* border-style: dashed; */
-    padding:5px !important;
+    padding: 0px !important;
     margin-bottom: 50px;
     border: none !important;
   }
 
 }
 
-.ulStyl{
+.ulStyl {
   font-weight: 600 !important;
 }
 
-.crossoutTxt{
+.crossoutTxt {
   text-decoration: line-through !important;
   color: rgb(145, 95, 3) !important;
 }
@@ -313,14 +309,13 @@ body {
   position: relative;
   padding-left: 15px;
   /* border-left: .5px solid #929292; */
- 
 }
 .timeline-item {
   position: relative;
   padding: 10px 0 10px 20px;
 }
 .timeline-item::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -7px;
   top: 15px;
@@ -329,7 +324,7 @@ body {
   background: #c4a077;
   border-radius: 50%;
 }
-.divDashed{
+.divDashed {
   /* border-style: dashed; */
   padding: 40px;
   margin-bottom: 50px;
@@ -338,16 +333,14 @@ body {
 .title {
   font-weight: bold;
   font-size: 19px;
-
 }
 .txtDate {
   color: rgb(82, 82, 82);
   font-size: 18px;
 }
 
-/* From Uiverse.io by joe-watson-sbf */ 
+/* From Uiverse.io by joe-watson-sbf */
 .flip-card {
-
   background-color: transparent;
   width: auto;
   height: auto;
@@ -355,7 +348,6 @@ body {
 }
 
 .flip-card-inner {
-
   text-align: center;
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -365,20 +357,19 @@ body {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
-  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+.flip-card-front,
+.flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
- 
 }
 
 .flip-card-front {
   background-color: #000000;
-  
 }
 
 .flip-card-back {
