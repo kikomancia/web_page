@@ -162,7 +162,7 @@ body {
 .fntsze115 {
   font-size: 120px;
   font-weight: 700;
-  color: #b68b36;
+  color: #000000;
 
 
 }
@@ -242,6 +242,9 @@ body {
 
 /* RESPONSIVE DESIGN FOR MOBILE */
 @media (max-width: 600px) {
+  /* .removeSmall{
+    display: none;
+  } */
   .sidebar {
     right: 0;
     top: auto;
@@ -276,7 +279,7 @@ body {
     
   }
 .fntsze115{
-  font-size: 80px;
+  font-size: 60px;
 }
   .rotated {
     display: none;
@@ -286,6 +289,13 @@ body {
   .crossoutTxt{
     text-decoration: line-through !important;
     color: #e2ba62 !important;
+  }
+
+  .divDashed{
+    /* border-style: dashed; */
+    padding:5px !important;
+    margin-bottom: 50px;
+    border: none !important;
   }
 
 }
@@ -301,8 +311,9 @@ body {
 
 .timeline {
   position: relative;
-  padding-left: 10px;
-  /* border-left: 1px solid #929292; */
+  padding-left: 15px;
+  /* border-left: .5px solid #929292; */
+ 
 }
 .timeline-item {
   position: relative;
@@ -318,11 +329,59 @@ body {
   background: #c4a077;
   border-radius: 50%;
 }
+.divDashed{
+  /* border-style: dashed; */
+  padding: 40px;
+  margin-bottom: 50px;
+  border: 20px dashed rgb(233, 233, 233);
+}
 .title {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 19px;
+
 }
 .txtDate {
-  color: gray;
-  font-size: 14px;
+  color: rgb(82, 82, 82);
+  font-size: 18px;
+}
+
+/* From Uiverse.io by joe-watson-sbf */ 
+.flip-card {
+
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+ 
+}
+
+.flip-card-front {
+  background-color: #000000;
+  
+}
+
+.flip-card-back {
+  background-color: #000000;
+  transform: rotateY(180deg);
 }
