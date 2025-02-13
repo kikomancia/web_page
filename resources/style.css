@@ -253,12 +253,15 @@ body {
     margin-bottom: -22px;
   }
   .mTxtSize {
-    font-size: 45px !important;
+    font-size: 50px !important;
     /* padding-top: 30px; */
   }
   .sidebar ul {
     display: flex;
     gap: auto;
+  }
+  .contactTxt{
+    font-size: 36px !important;
   }
 
   .sidebar ul li {
@@ -293,7 +296,13 @@ body {
     margin-bottom: 50px;
     border: none !important;
   }
-
+  
+  .cntIntro{
+    margin-top: 30px !important;
+  }
+  .btnDlResume{
+    margin-bottom: 90px;
+  }
 }
 
 .ulStyl {
@@ -386,4 +395,8 @@ body {
 
 .lnkClss:hover{
   color: rgb(156, 86, 19);
+}
+
+.cntIntro{
+  margin-top: 150px;
 }
