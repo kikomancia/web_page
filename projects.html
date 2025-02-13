@@ -1,90 +1,179 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
+    <title>Skills and Expertise</title>
 
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="/resources/style.css">
-    <link rel="stylesheet" href="/resources/btnDl.css"> -->
+    <link rel="stylesheet" href="/resources/style.css">
 
     <!-- Deploy to github site -->
-    <link rel="stylesheet" href="../web_page/resources/style.css">
-    <link rel="stylesheet" href="../web_page/resources/btnDl.css">
+    <!-- <link rel="stylesheet" href="../web_page/resources/style.css">
+    <link rel="stylesheet" href="../web_page/resources/btnDl.css"> -->
 
-    <!-- google fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
 </head>
 
-<body class="">
+<body class="skillsBG">
+
     <!-- Loading Screen -->
     <div id="loading-screen">
         <div class="txTload">
             Loading data.
         </div>
         <div class="spinner">
-            
-        </div> 
-     
+
+        </div>
+
     </div>
 
-    <!-- CONTENT LIST OR MENU -->
-    <div class="container offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
-        aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="container offcanvas-header">
-            <h1 class="titleMenu">CONTENT LIST</h1>
-            <button type="button" class="btn-close btnSize" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <hr>
-        <div class="off canvas-body container ">
-            <nav class="nav flex-column">
-                <a class="poppins-700-menu activeLink" href="">Home </a>
-                <a class="poppins-700-menu" href="about_me.html"> About me</a>
-                <a class="poppins-700-menu" href="projects.html"> Project & studies</a>
-                <a class="poppins-700-menu" href="skills.html"> Expertise & skills</a>
-                <a class="poppins-700-menu" href="leadership.html"> Leadership & team leader</a>
-                <a class="poppins-700-menu" href="contact.html"> Contact me</a>
-              </nav>
-        </div>
-        <hr>
-        <div class="container">
-            <button type="button" class="btn btn-warning"> <i class="bi bi-download"></i> Download my Resume</button>
-        </div>
+    <!-- Fixed Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <hr>
+            <li><a href="about_me.html">ABOUT ME</a></li>
+            <hr>
+            <li><a href="skills.html"> EXPERTISE</a></li>
+            <hr>
+            <li><a href="projects.html" class="crossoutTxt">PROJECTS</a></li>
+            <hr>
+            <li><a href="contact.html">CONTACT ME</a></li>
+        </ul>
     </div>
-    <!-- CONTENT LIST OR MENU -->
+    <!-- Fixed Sidebar end here -->
+    <div class="container mt-3">
 
-    <!-- ABOUT BODY START HERE -->
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <h1 class="fntsze115">EXPERIENCE </h1>
 
-    <div class="container ">
-        <div class="row align-items-start">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 bg-warning">
-                One of three columns
-            </div>
         </div>
 
-        <!--  -->
-        <div class="row align-items-start">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 bg-primary">
-                One of three columns
+        <!--------------------EDUCATIONS BACKGROUND---------------------->
+
+        <div class=" mt-5">
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <h3 style="color: rgb(26, 134, 134); font-weight: 700;" class="">
+                        Boss Cargo Express Freight Services Inc. </h3>
+                    <div style="font-size: 16px;">
+                        Boss Cargo Express is a <strong> tech-driven </strong> freight forwarding company focused on the
+                        efficient and reliable
+                        movement of cargo. Specializing in transporting goods by land, air, and sea, BCE plays a crucial
+                        role in connecting businesses and ensuring smooth supply chain operations. With innovative
+                        systems and a strong commitment to service excellence, the company delivers logistics solutions
+                        that are simple, fast, and dependable.
+                    </div>
+
+                    <div class="mt-4 title">
+                        <!-- MY JOURNEY -->
+                    </div>
+                    <div class="timeline">
+
+                        <div class="timeline-item">
+                            <div class="title">Business Technology Manager</div>
+                            <div class="txtDate">2023 - up to now</div>
+                            <div class="txtDate">Pamantasan ng Lungsod ng Muntinlupa</div>
+
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="title">Business Technology Team Leader</div>
+                            <div class="txtDate">Pamantasan ng Lungsod ng Muntinlupa</div>
+                            <div class="txtDate">2022 - 2023</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="title"> Fullstack Developer (2021 - 2022 ) </div>
+                            <div class="txtDate">  </div>
+                            <div class="txtDate"> My duties and resposibilities is to develop the official website of
+                                the company. I worked closely with the project owner which is the CEO and collaborate
+                                with the developers and Human Resource Department for the contents of the website.
+                                
+                            </div>
+
+                            <div class="txtDate mt-4">
+                                <h5> <strong> Projects </strong></h5>
+                                <ul>
+
+                                    <li>
+                                        <a href="http://bosscargo.express" target="_blank" rel="noopener noreferrer">
+                                            <strong> Bosscargo.express</a> - Official website </strong>
+                                        <ul>
+                                            <li>
+                                                WordPress & Elementor
+                                            </li>
+                                            <li>
+                                                Hostinger
+                                            </li>
+                                            <li>
+                                                MySQL / html / css / javascript
+                                            </li>
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="mt-3">
+                                      <strong>  Cerrofreight v2.0 - Freight Forwarding System (NDA) </strong>
+                                        <ul>
+                                            <li>
+                                                PHP / MySQL / html / css / javascript / jQuery / Ajax
+                                            </li>
+                                            <li>
+                                                Bootstrap Framework
+                                            </li>
+                                            <li>
+                                                Git & GitHub
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- 2nd col -->
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 removeSmall">
+                    <!-- <img src="/resources/imgs/graduate.png" class="img-fluid"> -->
+                </div>
+
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 bg-secondary">
-                One of three columns
-            </div>
+
         </div>
+
+        <!--------------------OTHER INFORMATION END ------------------->
+
+
     </div>
+    <!-- Copyright (Rotated) -->
+    <div class="rotated">© 2025</div>
+
+    <!-- js -->
+    <script src="/resources/motors.js"></script>
+
+    <!-- github deploy site -->
+    <!-- <script src="../web_page/resources/motors.js"></script> -->
 
 </body>
 
