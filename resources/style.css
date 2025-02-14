@@ -434,3 +434,14 @@ body {
   margin-top: 20px;
 }
 
+/* experience css */
+.lstXpTitle{
+  padding-left:20px;
+}
+.itemlst{
+  padding: 10px 0px 0px 0px;
+}
+.divProject{
+  /* top/ right / bottom / left */
+  margin: 15px 0px 0px 0px;
+}
