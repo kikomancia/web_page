@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Bot</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0d0d12, #1a1a2e);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+        }
+        .chat-container {
+            width: 90%;
+            max-width: 500px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        .chat-header {
+            background: #2979ff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+        .chatbox-container {
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .chatbox {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 30px;
+            padding: 15px 20px;
+            color: white;
+            resize: none;
+            height: 50px;
+            font-size: 16px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .chatbox:focus {
+            outline: none;
+        }
+        .chat-controls {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .send-button {
+            position: absolute;
+            right: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .send-button:hover {
+            background: #2979ff;
+        }
+        .send-button img {
+            width: 20px;
+            height: 20px;
+        }
+        @media (max-width: 600px) {
+            .chat-container {
+                width: 100%;
+            }
+            .chatbox {
+                font-size: 14px;
+                padding: 10px 15px;
+                height: 45px;
+            }
+            .send-button {
+                width: 35px;
+                height: 35px;
+            }
+            .send-button img {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Chat Bot</h1>
+    <p>Power up your website with our advanced chat bot that offers image and video tools.</p>
+    <div class="chat-container">
+        <div class="chat-header">
+            <span>How Can I Help You?</span>
+            <span>New Chat +</span>
+        </div>
+        <div class="chatbox-container">
+            <div class="chat-controls">
+                <textarea class="chatbox" placeholder="Send a message..."></textarea>
+                <button class="send-button">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2099/2099238.png" alt="Send">
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
